@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>index</title>
+    <link rel="shortcut icon" href="Man.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+      function valitdate(){
+        var username = document.signup.uname.value;
+        var name = document.signup.name.value;
+        var dateofbirth = document.signup.dob.value;
+        var password = document.signup.pwd.value;
+        if(username==""||name==""||dateofbirth==""||password=="")
+        {
+          alert("Fill all the fields")
+        }
+        else{
+          alert("Form submitted succesfully")
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+     <div class="heading">
+       <h1>Pc, Console or Mobile Gaming </h1>
+     </div>
+     <u1 class="nav-bar">
+       <li><a href="index.html" class="active">Home</a></li>
+       <li><a href="Pc.html">Pc</a></li>
+       <li><a href="Console.html">Console</a></li>
+       <li><a href="Mobile.html">Mobile</a></li>
+     </u1>
+    <header>
+
+    <div class="bd1">
+      <p>Its always been a quetion of which is better pc or console.<br/> However nowadays mobile gaming has exploded into the scene</p>
+    </div>
+    <img  src="pcmgaming.webp"   width="350" height="240">
+
+    <table class="bdtable">
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+      <tr>
+        <td><img src="pcmgaming.webp"   width="350" height="240"> </td>
+        <td>So which one is better, lets find out.</td>
+      </tr>
+
+    <tr>
+      <td>ABC</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+    </tr>
+    </table>
+
+    <div class="content">
+      <form name="signup" >
+        <fieldset>
+          <legend>Sign up</legend>
+        <table class="index-table">
+          <tr>
+            <td><label>Username:</label></td>
+            <td><input type="text" name= "uname"><br/></td>
+          </tr>
+          <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" name="name"><br/></td>
+          </tr>
+          <tr>
+            <td><label>DOB:</label></td>
+            <td><input type="date" name="dob"><br/></td>
+          </tr>
+          <tr>
+            <td><label>Password:</label></td>
+            <td><input type="password" name="pword"><br/></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><input type="button" value="Submit"></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+
+    <footer>
+    Copyright &copy; Leonel Saenz & Fernando
+    </footer>
+  </body>
+</html>
